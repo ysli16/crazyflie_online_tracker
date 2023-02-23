@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="crazyflie_online_tracker" name="hover_controller" type="hover_controller.py" output="screen"/>
+  <node pkg="crazyflie_online_tracker" name="crazyflie_actuator" type="crazyflie_actuator.py" output="screen"/>
+  <!-- <node pkg="crazyflie_online_tracker" name="crazyflie_state_estimator" type="crazyflie_state_estimator.py" output="screen"/>
+  <node pkg="crazyflie_online_tracker" name="target_state_estimator" type="target_state_estimator.py" output="screen"/> -->
+</launch>
