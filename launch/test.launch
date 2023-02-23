@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="crazyflie_online_tracker" name="crazyflie_helper" type="crazyflie_connection_helper.py" output="screen"/>
+</launch>
