@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="crazyflie_online_tracker" name="square_controller" type="square_controller.py" output="screen"/>
+  <node pkg="crazyflie_online_tracker" name="target_state_estimator" type="target_state_estimator.py" output="screen"/>
+</launch>
+<!-- Run MATLAB script matlab_simulator.m after launching to start simulation. -->
