@@ -23,6 +23,8 @@ class TargetStateEstimator(StateEstimator):
 
     def get_stationary_target(self):
         self.state = TargetState()
+        self.state.pose2D.x = 0.3
+        self.state.pose2D.y = 0.3
 
 
 if __name__ == '__main__':
